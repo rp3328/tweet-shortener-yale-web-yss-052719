@@ -19,4 +19,5 @@ def word_substituter(str)
   temp = str.split(" ") #str to array
 
   tweet = tweet.collect do |val|
-    
+    if dictionary.keys.include?(val.downcase)
+      
