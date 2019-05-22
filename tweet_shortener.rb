@@ -32,3 +32,18 @@ end
 def bulk_tweet_shortener(arr)
   arr.each { |val| puts word_substituter(val)}
 end
+
+def selective_tweet_shortener(arr)
+  alen = arr.length
+  if alen > 140
+    bulk_tweet_shortener(arr)
+  else
+    return arr
+end
+
+
+
+
+
+
+
