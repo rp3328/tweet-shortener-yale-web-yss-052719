@@ -41,3 +41,14 @@ def selective_tweet_shortener(arr)
     return arr
   end
 end
+
+def shortened_tweet_truncator(str)
+  slen = str.length
+  if slen > 140
+    puts str[0..140] + "..."
+  else
+    return str
+  end
+end
+
+
