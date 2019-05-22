@@ -20,4 +20,10 @@ def word_substituter(str)
 
   tweet = tweet.collect do |val|
     if dictionary.keys.include?(val.downcase)
-      
+      dictionary[val.downcase]
+    else
+      val
+    end
+  end
+  tweet.join(" ") #arr to string
+end
