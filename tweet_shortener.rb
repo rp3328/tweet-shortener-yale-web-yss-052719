@@ -36,7 +36,7 @@ end
 def selective_tweet_shortener(arr)
   alen = arr.length
   if alen > 140
-    bulk_tweet_shortener(arr)
+    word_substituter(arr)
   else
     return arr
 end
