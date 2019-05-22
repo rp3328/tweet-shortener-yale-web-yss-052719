@@ -10,4 +10,6 @@ def dictionary
     "four" => '4'
     'be' => 'b'
     'you' => 'u'
+    "at" => "@"
+    "and" => "&"
   }
