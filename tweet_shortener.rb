@@ -28,6 +28,3 @@ def word_substituter(str)
   end
   tweet.join(" ") #arr to string
 end
-
-
-
