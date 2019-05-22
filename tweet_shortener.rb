@@ -39,5 +39,5 @@ def selective_tweet_shortener(arr)
     word_substituter(arr)
   else
     return arr
-end
+  end
 end
