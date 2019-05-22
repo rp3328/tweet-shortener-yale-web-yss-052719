@@ -42,10 +42,10 @@ def selective_tweet_shortener(arr)
   end
 end
 
-def shortened_tweet_truncator(str)
-  if str.length > 140
-    word_substituter(str)
-    puts str[0..136] + "..."
+def shortened_tweet_truncator(input)
+  if input.length > 140
+    word_substituter(input)
+    puts input[0..136] + "..."
   else
     return str
   end
