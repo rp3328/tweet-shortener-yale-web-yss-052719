@@ -47,6 +47,6 @@ def shortened_tweet_truncator(input)
     word_substituter(input)
     puts input[0..136] + "..."
   else
-    return str
+    return input
   end
 end
