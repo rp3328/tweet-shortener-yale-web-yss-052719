@@ -40,10 +40,4 @@ def selective_tweet_shortener(arr)
   else
     return arr
 end
-
-
-
-
-
-
-
+end
