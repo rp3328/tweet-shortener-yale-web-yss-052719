@@ -32,7 +32,3 @@ end
 def bulk_tweet_shortener(arr)
   arr.each { |val| puts word_substituter(val)}
 end
-
-
-
-
